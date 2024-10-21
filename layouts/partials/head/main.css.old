@@ -1,0 +1,38 @@
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 80%;
+  display: block;
+  justify-content: center;
+}
+
+header {
+  border: 1px solid #222;
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+  background-color: aquamarine;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header_list {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em;
+  align-content: center;
+}
+
+footer {
+  border: 1px solid #222;
+  background-color: aquamarine;
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
